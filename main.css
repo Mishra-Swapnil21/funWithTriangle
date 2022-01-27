@@ -1,0 +1,12 @@
+* {
+   --primary-color: #1f2937;
+   --secondary-color: #1E90FF;
+   --text-color: #f9fafb;
+   margin: 0%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
