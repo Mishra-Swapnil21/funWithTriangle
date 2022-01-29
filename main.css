@@ -3,6 +3,7 @@
    --secondary-color: #1E90FF;
    --text-color: #f9fafb;
    margin: 0%;
+   margin-bottom: 0%;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,7 +23,9 @@ body {
      
 }
 h1 {
+    
     font-size: 60px;
+    text-align: center;
 }
 #output {
     margin-top: 2rem;
@@ -32,11 +35,14 @@ h1 {
 .navigation {
     background:var(--secondary-color);
     color: var(--text-color);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 footer {
+    margin-top: 2.5rem;
+    margin-bottom: 0%;
     background-color: var(--secondary-color);
-    margin-bottom: 0% ;
     color: var(--text-color);
 }
 
@@ -60,8 +66,10 @@ footer {
     font-weight: bold;
     font-size: medium;
     padding: 0.5rem;
+    text-align: center;
     }
 
- .link-footer {
-     text-align: center;
- }   
+.quiz-form {
+    margin-top: 5rem;
+    margin-bottom: 16%;
+}

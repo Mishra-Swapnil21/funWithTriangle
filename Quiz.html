@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
+    <nav class="navigation">
+        <div class="nav-brands">
+            <ul class="nav-pills">
+                <li class="link link-active list-item-inline">Is triangle?</li>
+                <li class="link list-item-inline">Quiz triangle</li>
+                <li class="link list-item-inline">Hypotenuse</li>
+                <li class="link list-item-inline">Area</li>
+            </ul>
+        </div>
+    </nav>   
+    <nav class="navigation">
+        <div class="nav-brands">
+            <ul class="nav-pills">
+                <li class="link link-active list-item-inline">Is triangle?</li>
+                <li class="link list-item-inline">Quiz triangle</li>
+                <li class="link list-item-inline">Hypotenuse</li>
+                <li class="link list-item-inline">Area</li>
+            </ul>
+        </div>
+    </nav>      
  <h1 id="header">Traingle Quiz</h1>
  <form class="container quiz-form">
      <div class="quiz-container">
@@ -26,8 +47,33 @@
              <input required type="radio" name="options" value="90°">
              90°
          </label>
+      </div> 
+      <br>  
+      <div class="quiz-container">
+      <P>
+          If a triangle has an angle of 90 degree,what is it called? 
+      </P> 
+       <label>
+           <input required type="radio" name="options" value="obtuse">
+           obtuse
+       </label>
+       <input required type="radio" name="options" value="acute">
+           acute
+       </label>
+       <label>
+           <input required type="radio" name="options" value="right-angled">
+           right-angled
+       </label>
      </div>
  </form>
+ <footer>
+    <div class="footer-header">Connect with me on social media</div>
+    <ul class="social link">
+        <li class="list-item-inline"><a class="link link-footer" href="https://github.com/luciferwrath21" target="_blank"><i style="font-size:24px;padding-right: 0.6rem;" class="fa">&#xf09b;</i>Github</li>
+        <li class="list-item-inline"><a class="link link-footer" href="https://www.instagram.com/mishra_swapnil.21/" target="_blank"><i style="font-size:24px; padding-right: 0.4rem;" class="fa">&#xf16d;</i>Instagram</li>
+        <li class="list-item-inline"><a class="link link-footer" href="https://www.linkedin.com/in/swapnil-mishra-471a701a0/" target="_blank"><i style="font-size:24px; padding-right: 0.5rem;" class="fa">&#xf08c;</i>Linkedin</li>
+    </ul>
+</footer>  
  <script src="quiz.js"></script>   
 </body>
 </html>
