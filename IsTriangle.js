@@ -17,8 +17,10 @@ checkButton.addEventListener('click' , function ValidateFirstSecondThirdAngle()
                 if(firstAng>0){
                     if(secondAng>0){
                         if(thirdAng>0){
-                            const sum= firstAng + secondAng + thirdAng;
-                             checkForTriangle()
+                            const sum= firstAng + secondAng +thirdAng;
+                             
+                                if(sum === 180){showMessage("Yes, it is a triangle")
+                                }else {showMessage("No, it is not a triangle")}
                         }else{showMessage("Error:- Invalid third angle")}
                     }else{showMessage("Error:- Invalid second angle")}
                 }else{showMessage("Error:- Invalid first angle")}
@@ -37,8 +39,4 @@ function showMessage (msg) {
     
 }
 
-function checkForTriangle(){
-    if(sum=180){
-        showMessage("Yes, it is a triangle")
-    }else {showMessage("No, it is not a triangle")}
-}
+
